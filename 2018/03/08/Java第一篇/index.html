@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head tag -->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  
+  <title>Java第一篇 - Hexo</title>
+
+  <!--Favicon-->
+  <link rel="icon" href="favicon/favicon.ico">
+
+  <!--Description-->
+  
+      <meta name="description" content="Java第一篇
+JVM,JRE,JDK
+Java代码案例理解
+关键字
+语法格式
+
+JVM,JRE,JDK代码案例理解public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.pr">
+  
+
+  <!--Author-->
+  
+      <meta name="author" content="John Doe">
+  
+
+  <!-- Pure CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Google Analytics -->
+  
+
+</head>
+
+
+  <body>
+  	<div class="container-fluid navbar-container m-sm-5">
+      <!-- Header -->
+      <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
+  <a class="navbar-brand ml-2" href="/">Hexo</a>
+  <button class="navbar-toggler navbar-toggler-right py-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto my-auto">
+      
+    </ul>
+    <hr class="hidden-md-up" />
+  </div>
+</nav>
+
+
+  		<div class="row">
+  			<div class="col-12 mb-4">
+  <img class="img-fluid project-img" src="/images/unsplash.jpg" alt="Java第一篇">
+</div>
+<div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
+  <h1>Java第一篇</h1>
+</div>
+<div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
+  <h2 id="Java第一篇"><a href="#Java第一篇" class="headerlink" title="Java第一篇"></a>Java第一篇</h2><ol>
+<li>JVM,JRE,JDK</li>
+<li>Java代码案例理解</li>
+<li>关键字</li>
+<li>语法格式</li>
+</ol>
+<h3 id="JVM-JRE-JDK"><a href="#JVM-JRE-JDK" class="headerlink" title="JVM,JRE,JDK"></a>JVM,JRE,JDK</h3><h3 id="代码案例理解"><a href="#代码案例理解" class="headerlink" title="代码案例理解"></a>代码案例理解</h3><p><code>public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println(&quot;HelloWorld&quot;);
+    }
+}</code><br>public:权限修饰符,可以修饰类,方法,变量,常量,关键字字母全部小写;<br>class:修饰符,声明该类是一个普通Java类(不是接口),关键字字母全部小写;<br>HelloWorld:这里是类名,类名首字母大写,多个单词每个单词首字母大写,文件名必须和类名一致;<br>static:静态修饰符,一般用来修饰成员变量或函数。<br>  静态就是指在编译后所分配的内存会一直存在，直到程序退出内存才会释放这个空间。<br>  static不能修饰类,特殊用法用static修饰内部类，普通类是不允许声明为静态的，只有内部类才可以。被static修饰的内部类可以直接作为一个普通    类来使用，而不需实例一个外部类;<br>  static修饰的函数随类的加载而加载,只加载一次;<br>  静态方法只能访问静态成员,且静态方法不能调用this,super,因为静态优先于对象存在;<br>  static修饰的成员变量,能够直接通过类名.变量名来访问到这个变量,没有静态修饰的成员变量需要创建对象(获取实例化对象ClassA a = new ClassA();获取字节码对象三种方式,Class.forName(全限定名);类名.class;对象.getClass())后,通过对象.变量名才能访问;<br>void:函数没有具体的返回类型;<br>main:入口函数,是一个特殊的方法名(JVM识别);<br>String[]:参数类型;<br>args:参数名;<br>System.out.println(“HelloWorld”):换行输出打印这个字符串;</p>
+<h3 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h3><p>定义数据类型的关键字<br>class:声明该类是一个普通Java类</p>
+<p><img src="https://i.imgur.com/xmJyYxM.jpg" alt=""></p>
+<p>###</p>
+
+</div>
+
+
+      </div>
+      
+  	</div>
+
+    <!-- After footer scripts -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  </body>
+</html>
